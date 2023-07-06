@@ -1,9 +1,9 @@
 # Linux User Adder
-A CLI application that automates adding users to a Linux machine while checking information and conditions
+A script that automates adding users to a Linux machine while checking information and conditions
 
 ## NOTICE 
 This script was written for Linux machines using CentOS and may run differently on other distros.
-Furthermore the CSV file is expected to have <b> at least </b> the following columns (case sensitive): EmployeeID,LastName,FirstName,Office,Phone,Department,Group
+Furthermore the CSV file is expected to have <b> at least </b> the following columns (case sensitive): EmployeeID, LastName, FirstName, Office, Phone, Department, Group
 
 ## PROJECT REQUIREMENTS
 
@@ -21,6 +21,13 @@ the Borne Again Shell, or Bash as the default.
 11. The password expires the first time the user logs in so that they must change it.
 12. Each record in the CSV file indicates the default group for the corresponding user, and creates it if it doesn't exist.
 
+## CONDITIONS AND CHECKS 
+
+1. Valid phone numbers are in the format xxx-xxxx
+2. Valid office numbers are in the format xx-xxxx
+3. Valid names are non-empty strings with no digits
+4. Valid departments and groups are non-empty strings
+   
 ## USAGE
 1. Run the script using a shell or an IDE
 2. Enter the csv file name or path
