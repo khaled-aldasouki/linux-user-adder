@@ -29,7 +29,7 @@ the Borne Again Shell, or Bash as the default.
 4. Valid departments and groups are non-empty strings
    
 ## USAGE
-1. Run the script using a shell or an IDE
+1. Run the script using a terminal by using <i>python './Linux User Adder.py'</i> or <i>./Linux\ User\ Adder.py</i> if you have execution permission 
 2. Enter the csv file name or path
 3. wait for the program to finish running, while monitoring the output for any issues or reports
 
