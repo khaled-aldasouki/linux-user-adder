@@ -170,6 +170,7 @@ if __name__ == "__main__":
     if platform == "win32":
         print("This tool is made for Linux and cannot be used on Windows.")
         time.sleep(5)
-    os.system("clear")
-    read_users(input("Please enter the csv filepath containing the users you'd like to add: ").strip())   
+    else:    
+        os.system("clear")
+        read_users(input("Please enter the csv filepath containing the users you'd like to add: ").strip())   
     
